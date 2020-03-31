@@ -6,18 +6,20 @@
 }
 
 body{
+
 	font-family: "Nunito", arial, helvetica, sans-serif;
 	font-size: 20px;
 	background-image: url("ferramentas.png");
 	background-repeat: repeat;
-	
 }
     
 img{
+
     display: block;
     max-width: 100%;
 }
 .menu{
+
     max-width: 968px;
     margin: 0 auto;
     padding: 15px 0;
@@ -30,10 +32,12 @@ img{
 }
 
 .menu li{
+
 		position:relative; 
 		float:left; 
 }
 .menu li a{
+
     color:white; 
     text-decoration:none; 
     padding:5px 20px; 
@@ -41,21 +45,25 @@ img{
 }
 
 .menu li a:hover{
+
 	color:#fff;  
 	text-shadow:0px 0px 5px #fff; 
 }
 
 .menu li:hover ul, .menu li.over ul{
+
     display:block;
 }
 
 .menu li ul li{ 
+
 	display:block; 
 	width:300px;
 	padding: 10px;
     }
     
 .menu li ul{
+
 	position:absolute; 
 	top:30px; 
 	left:0;
@@ -64,6 +72,7 @@ img{
     }    
 
 .cabecalho-info{
+
     max-width: 1120px;
     margin: 0 auto;
     display: flex;
@@ -72,6 +81,7 @@ img{
 }
 
 nav{
+
 	color: #000000;
 	height: 21%;
 	width: 80%;
@@ -81,6 +91,7 @@ nav{
 }
 
 section{
+
 	max-height: auto;
 	max-width: auto;
 	margin-left: 25%;
@@ -88,10 +99,11 @@ section{
 	margin-top: 5%;
 	margin-bottom: 5%;
 	border:1px solid black;
-	background-color: white;
+	background-image: repeating-linear-gradient(#ff9a3b, rgb(255, 197, 8), #FFFF00); 
 }
 
 .noticias-info{
+
 	color: black;
 	display: flex;
 	flex-wrap: wrap;
@@ -102,34 +114,71 @@ section{
 .noticias-info h2, p{
 
 	padding: 10px;
+}
 
+#video1{
+
+	max-height: 450px;
+	width: 1000px;
+}
+
+#video2{
+
+	max-height: 450px;
+	width: 1000px;
+	margin-bottom: 2%;
 }
 
 
 footer{
+
 	height: 150px;
-	margin-top: 5%;
-	background:#ADD8E6;
+	background:#ff9a3b;
 	color: black;
-	
+	bottom: 0;
+	background-image: radial-gradient(#ff9a3b, rgb(250, 142, 0)); 
 }
 .sobre{
+
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: auto;
 }
 
 .sobre h1, .sobre p{
+
 	padding-left: 60px;
+	padding-top: 25px;
+	text-align: center;
 }
 
 .sobre a{
+
 	text-decoration: none;
 	color: black;
 }
 
-#imgrodape {
+
+aside{
+
+	height: 600px;
+	width: 350px;
+	background-image: radial-gradient(rgb(255, 219, 122),#ff8410);
 	float: right;
-	margin: auto;
-	padding-right: 80px;
+	margin-top: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+#podcast{
+
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#audio{
+
+	margin-top: 50px;
 }
