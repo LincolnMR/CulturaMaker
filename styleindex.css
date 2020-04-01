@@ -38,7 +38,7 @@ img{
 }
 .menu li a{
 
-    color:white; 
+    color:black; 
     text-decoration:none; 
     padding:5px 20px; 
 	display:block;
@@ -46,8 +46,8 @@ img{
 
 .menu li a:hover{
 
-	color:#fff;  
-	text-shadow:0px 0px 5px #fff; 
+	color:rgb(133, 133, 133);  
+	text-shadow:0px 0px 5px rgb(133, 133, 133); 
 }
 
 .menu li:hover ul, .menu li.over ul{
@@ -133,6 +133,7 @@ section{
 footer{
 
 	height: 150px;
+	max-width: auto;
 	background:#ff9a3b;
 	color: black;
 	bottom: 0;
@@ -181,4 +182,22 @@ aside{
 #audio{
 
 	margin-top: 50px;
+}
+
+#insta{
+
+	height: 60px;
+	width: 60px;
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+}
+
+#face{
+
+	height: 60px;
+	width: 60px;
+	margin-top: 40px;
+	margin-right: 40px;
+	float: right;
 }
